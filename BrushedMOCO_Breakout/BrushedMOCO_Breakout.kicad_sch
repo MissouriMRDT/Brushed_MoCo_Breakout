@@ -955,7 +955,7 @@
     (stroke (width 0) (type default))
     (uuid 328a20b2-917f-4118-bfca-83b15a571c70)
   )
-  (polyline (pts (xy 49.53 110.49) (xy 284.48 110.49))
+  (polyline (pts (xy 11.938 109.982) (xy 284.988 109.982))
     (stroke (width 0) (type default))
     (uuid 33e78b0e-4b21-4696-ba1d-8741f3fcece4)
   )
@@ -996,11 +996,6 @@
     (stroke (width 0) (type default))
     (uuid 49f44f94-e59f-462b-874b-23cb8c019664)
   )
-  (polyline (pts (xy 12.7 110.49) (xy 49.53 110.49))
-    (stroke (width 0) (type default))
-    (uuid 4cb92a4e-a70c-43de-a79d-5a15d66044a1)
-  )
-
   (wire (pts (xy 58.42 144.78) (xy 58.42 139.7))
     (stroke (width 0) (type default))
     (uuid 550cfda6-3f23-421d-9bae-14cde99711da)
@@ -1077,6 +1072,11 @@
     (stroke (width 0) (type default))
     (uuid 8bc78b00-015a-4d9e-b018-c07eb4d3e2d0)
   )
+  (polyline (pts (xy 76.2 197.612) (xy 76.2 197.866))
+    (stroke (width 0) (type default))
+    (uuid 94f6eaf5-50f5-43cd-89d5-e37f8454385c)
+  )
+
   (wire (pts (xy 218.44 34.29) (xy 214.63 34.29))
     (stroke (width 0) (type default))
     (uuid 95bc4938-5580-4bd6-aea8-1d8cafe89ff2)
@@ -1193,7 +1193,7 @@
     (stroke (width 0) (type default))
     (uuid c6d357cc-51ca-4802-86d1-54cf8169c9fc)
   )
-  (polyline (pts (xy 76.2 110.49) (xy 76.2 198.12))
+  (polyline (pts (xy 76.2 109.982) (xy 76.2 197.866))
     (stroke (width 0) (type default))
     (uuid d10ee8f9-17f0-405f-83c0-c952b082c1f0)
   )
@@ -1230,6 +1230,11 @@
     (stroke (width 0) (type default))
     (uuid e851f159-e646-4886-a067-e6aebc922665)
   )
+  (polyline (pts (xy 283.972 109.982) (xy 284.988 109.982))
+    (stroke (width 0) (type default))
+    (uuid ed6912ee-5baa-4bf3-8abf-197b7624fa80)
+  )
+
   (wire (pts (xy 175.26 87.63) (xy 175.26 90.17))
     (stroke (width 0) (type default))
     (uuid eed2ca33-be1b-4bf0-ae38-40d341390490)
@@ -1402,7 +1407,7 @@
   (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 140.97 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 147a6c43-0070-46f7-894f-9cb19a0c1dee)
-    (property "Reference" "Conn3" (at 133.096 48.26 0)
+    (property "Reference" "Conn2" (at 133.096 48.26 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "AndersonPP" (at 133.096 50.8 0)
@@ -1422,7 +1427,7 @@
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
-          (reference "Conn3") (unit 1)
+          (reference "Conn2") (unit 1)
         )
       )
     )
@@ -1558,12 +1563,12 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 33.02 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2ade891-607d-46c1-b580-7012848cbbfe))
-    (pin "6" (uuid a6ba6347-b7ea-4718-a9f9-8c17b8348a33))
-    (pin "3" (uuid 271dfaaa-beaa-417b-a38f-b8f1615346e2))
-    (pin "4" (uuid 997bad97-7c51-4215-8a2c-f1b7a777f06c))
-    (pin "2" (uuid ee4c019e-c02b-4218-bba7-965a34333a15))
-    (pin "5" (uuid 1705502c-1292-406f-b90b-0862dd84da6a))
+    (pin "1" (uuid 3cde6964-91fe-4069-9adf-4741c38cf1fc))
+    (pin "6" (uuid ccc23a07-d1e6-41bb-bb43-1a886a22bfc0))
+    (pin "3" (uuid 5f4eb84b-c1d2-41b7-8e4b-47909cd37deb))
+    (pin "4" (uuid 5631200f-8d22-4179-9a1e-ccfdda66d9c9))
+    (pin "2" (uuid 1d1bf996-1802-4e4d-bbd9-b1027de4bab6))
+    (pin "5" (uuid fab17f61-f1eb-4ba6-93d9-955fc8b2b36c))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -1774,12 +1779,12 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 175.26 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df407c84-a5b1-421a-91e4-d7bef7947a1e))
-    (pin "6" (uuid d6c94b79-7472-4c80-a4ff-74ef69e792ba))
-    (pin "3" (uuid 5228eb65-e8da-4ee6-a635-3e4357733edc))
-    (pin "4" (uuid 6c3e2659-0a0a-4857-8123-9c9e77456ce1))
-    (pin "2" (uuid ead135ee-403d-4be6-a96f-898b72d549a6))
-    (pin "5" (uuid 822b9184-1fb0-4306-b07d-4966f6ea84a2))
+    (pin "1" (uuid 1e03867d-a14b-4660-b9f6-fae900cb6130))
+    (pin "6" (uuid b0a100d5-4f31-4e4c-bf77-0dd68fead52c))
+    (pin "3" (uuid 2cca5a90-d413-4c5c-927a-cc1380753187))
+    (pin "4" (uuid bed1a3b4-2757-473a-91a6-ac739629b479))
+    (pin "2" (uuid c011aecf-23a6-40dc-b08a-06c1574d1180))
+    (pin "5" (uuid d48eaf36-78f0-4e0e-91ba-37f65cd242ab))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -2002,12 +2007,12 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 264.16 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31e1f77d-76ad-4385-8dfe-a5bf150987de))
-    (pin "6" (uuid 75d40d18-9a03-4585-b6ee-f81362371665))
-    (pin "3" (uuid b65e542e-1490-499d-a110-6b6f2f6dc75c))
-    (pin "4" (uuid 988a836d-8426-43d1-9150-2ed9f782087c))
-    (pin "2" (uuid dc132ef4-c5ba-4c9d-a16e-133afe8f7de0))
-    (pin "5" (uuid 8d2013ec-92ce-4444-9b59-4fe462ab0180))
+    (pin "1" (uuid 0df89458-62b9-4da4-bd50-8b8e84f659aa))
+    (pin "6" (uuid de21bfbf-ed3f-44ee-9672-c8382d3cb988))
+    (pin "3" (uuid 214b515e-6364-4f1b-986e-169fda218ab7))
+    (pin "4" (uuid 1b8918cc-b74c-4daa-a069-8bc236dafb34))
+    (pin "2" (uuid 0ef48562-ec91-483c-9ba8-5536d2396e2e))
+    (pin "5" (uuid fa08fce5-30a1-4c6a-ae90-e48656082cde))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -2243,7 +2248,7 @@
   (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 154.94 46.99 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f33207a9-a13b-4c88-a118-940df6cbf654)
-    (property "Reference" "Conn3" (at 156.718 48.26 0)
+    (property "Reference" "Conn2" (at 156.718 48.26 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "AndersonPP" (at 159.258 50.8 0)
@@ -2263,7 +2268,7 @@
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
-          (reference "Conn3") (unit 2)
+          (reference "Conn2") (unit 2)
         )
       )
     )
