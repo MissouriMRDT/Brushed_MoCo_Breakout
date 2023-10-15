@@ -1404,35 +1404,6 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 140.97 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 147a6c43-0070-46f7-894f-9cb19a0c1dee)
-    (property "Reference" "Conn2" (at 133.096 48.26 0)
-      (effects (font (size 1.524 1.524)) (justify right))
-    )
-    (property "Value" "AndersonPP" (at 133.096 50.8 0)
-      (effects (font (size 1.524 1.524)) (justify right))
-    )
-    (property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV" (at 144.78 27.94 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 144.78 27.94 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid b80ea7cd-d9bc-473a-bc33-1eba76a5c860))
-    (pin "2" (uuid cc33ee73-78b4-4759-964d-f4355c8da8d4))
-    (pin "3" (uuid 7ad4271f-9f48-47dc-8d43-8de0851f9b04))
-    (pin "4" (uuid 07280fa4-2579-48bf-8640-62d53c22ed55))
-    (pin "1" (uuid b80ea7cd-d9bc-473a-bc33-1eba76a5c860))
-    (instances
-      (project "BrushedMOCO_Breakout"
-        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
-          (reference "Conn2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 50.8 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d92cd4d-bf41-48e2-8c21-cd622ce3cfea)
@@ -1688,31 +1659,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 175.26 64.77 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7718629a-063d-401c-abb0-6717b9e1702e)
-    (property "Reference" "#PWR05" (at 175.26 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 175.26 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 175.26 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 175.26 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 30f13b60-ee58-467c-9b78-29604bacb1de))
-    (instances
-      (project "BrushedMOCO_Breakout"
-        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 95.25 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77a721c0-7d6c-4ebb-aeaf-a6d98e69140b)
@@ -1789,6 +1735,31 @@
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
           (reference "U1") (unit 3)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 175.26 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 84325684-0ddc-466c-a03c-d311a4380c9a)
+    (property "Reference" "#PWR09" (at 175.26 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 175.26 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 175.26 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.26 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3082b8c0-6fbd-4c78-bce6-5e31334c6be8))
+    (instances
+      (project "BrushedMOCO_Breakout"
+        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1877,6 +1848,35 @@
     )
   )
 
+  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 140.97 41.91 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9ab9fc54-8cc2-4957-aa70-7ee81228d3fc)
+    (property "Reference" "Conn2" (at 133.858 48.26 0)
+      (effects (font (size 1.524 1.524)) (justify right))
+    )
+    (property "Value" "AndersonPP" (at 133.858 50.8 0)
+      (effects (font (size 1.524 1.524)) (justify right))
+    )
+    (property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV" (at 144.78 27.94 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 144.78 27.94 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c2d))
+    (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb98))
+    (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b876))
+    (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735a))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c2d))
+    (instances
+      (project "BrushedMOCO_Breakout"
+        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
+          (reference "Conn2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Driver_FET:IRS2308") (at 226.06 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fd1f8f1-bfa7-42e2-a22f-08c4234bd4df)
@@ -1955,6 +1955,35 @@
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
           (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 154.94 46.99 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a6a60949-f310-4866-9c2a-ed9f24d85524)
+    (property "Reference" "Conn2" (at 157.734 48.26 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "AndersonPP" (at 157.734 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV" (at 151.13 60.96 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 151.13 60.96 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea75))
+    (pin "2" (uuid 3d0dd383-0af6-4b8b-be74-c422f12fed68))
+    (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e189))
+    (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b30fe))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea75))
+    (instances
+      (project "BrushedMOCO_Breakout"
+        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
+          (reference "Conn2") (unit 2)
         )
       )
     )
@@ -2140,7 +2169,7 @@
   (symbol (lib_id "MRDT_Connectors:Molex_SL_03") (at 99.06 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2daebce-c6e7-4e5b-88d3-fa38f87c9a88)
-    (property "Reference" "Conn2" (at 95.25 129.54 0)
+    (property "Reference" "Conn3" (at 95.25 129.54 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Molex_SL_03" (at 95.25 132.08 0)
@@ -2158,7 +2187,7 @@
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
-          (reference "Conn2") (unit 1)
+          (reference "Conn3") (unit 1)
         )
       )
     )
@@ -2205,11 +2234,11 @@
     (property "Datasheet" "" (at 36.83 144.78 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid e7b0632f-24bd-4be5-8865-c583791a1625))
+    (pin "1" (uuid e7b0632f-24bd-4be5-8865-c583791a1628))
     (pin "2" (uuid a2332181-dc36-4fe8-8c5b-4732f8618faf))
     (pin "3" (uuid 26af7ba9-707b-4c1c-aae8-cb2e0f2a11a7))
     (pin "4" (uuid 5e22adae-1a35-40b7-bf3a-8b1ccd921e92))
-    (pin "1" (uuid e7b0632f-24bd-4be5-8865-c583791a1625))
+    (pin "1" (uuid e7b0632f-24bd-4be5-8865-c583791a1628))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -2245,35 +2274,6 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 154.94 46.99 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f33207a9-a13b-4c88-a118-940df6cbf654)
-    (property "Reference" "Conn2" (at 156.718 48.26 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "AndersonPP" (at 159.258 50.8 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV" (at 151.13 60.96 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 151.13 60.96 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid c5cf8a6b-35e4-482f-82df-ebd9b19ee57a))
-    (pin "2" (uuid 4631e9f6-1e65-4c37-8e32-c27ab021fe5a))
-    (pin "3" (uuid 7a9b6b7f-17b4-477e-86d6-99c4b34d9b7c))
-    (pin "4" (uuid f8ff9566-5ffa-4e65-923d-f0dc76e1034e))
-    (pin "1" (uuid c5cf8a6b-35e4-482f-82df-ebd9b19ee57a))
-    (instances
-      (project "BrushedMOCO_Breakout"
-        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
-          (reference "Conn2") (unit 2)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 40.64 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f43ce3be-a665-478f-beba-ce4731968ec2)
@@ -2289,11 +2289,11 @@
     (property "Datasheet" "" (at 36.83 161.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid f6b6a751-3f33-4358-8a6b-147ebe2843b5))
+    (pin "1" (uuid f6b6a751-3f33-4358-8a6b-147ebe2843b8))
     (pin "2" (uuid b3d780f9-bbb4-45dc-bab9-cf93ee9e4242))
     (pin "3" (uuid e0b44324-ac35-4de7-8e8f-2ddfbf62f69b))
     (pin "4" (uuid feac2b0b-b3d8-45da-927d-dde9ddda78b8))
-    (pin "1" (uuid f6b6a751-3f33-4358-8a6b-147ebe2843b5))
+    (pin "1" (uuid f6b6a751-3f33-4358-8a6b-147ebe2843b8))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
