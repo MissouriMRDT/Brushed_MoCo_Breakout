@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Libraries")(type "KiCad")(uri "C:/GitHub/Brushed_MoCo_Breakout/Libraries.pretty")(options "")(descr ""))
+  (lib (name "BrushedMoCoLibrary")(type "KiCad")(uri "C:/GitHub/Brushed_MoCo_Breakout/Libraries/BrushedMoCoLibrary.pretty")(options "")(descr ""))
+)

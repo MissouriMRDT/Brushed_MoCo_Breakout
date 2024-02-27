@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BrushedMoCoLibrary")(type "KiCad")(uri "C:/GitHub/Brushed_MoCo_Breakout/Libraries/BrushedMoCoLibrary.kicad_sym")(options "")(descr ""))
+)
