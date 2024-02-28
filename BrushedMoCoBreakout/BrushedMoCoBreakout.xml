@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GitHub\Brushed_MoCo_Breakout\BrushedMoCoBreakout\BrushedMoCoBreakout.kicad_sch</source>
+    <date>2/27/2024 6:14:29 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BrushedMoCoBreakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>220uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>708ca0f6-cbaf-448e-8bf9-f66622881e80</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59379184-c3b1-43d9-a81f-f8aceed419d4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40091fc5-b0dc-4790-becf-d80ae4500fe3</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a645cba0-df8e-42ec-8f27-4913b3e826f2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae389da5-81c7-4ceb-8a45-95c13983d417</tstamps>
+    </comp>
+    <comp ref="Conn1">
+      <value>AndersonPP</value>
+      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Stacked_PV</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75ae99bd-4d13-4ad2-8556-4e590894d650 1996022c-1c25-4866-8d91-79646f0864de</tstamps>
+    </comp>
+    <comp ref="Conn2">
+      <value>AndersonPP</value>
+      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Stacked_PV</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7086de56-486e-4b6d-a0eb-e22e0957ec7a 2450ecd1-15ee-43d7-a3e5-6da366a6bdbb</tstamps>
+    </comp>
+    <comp ref="Conn3">
+      <value>Molex_SL_05</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_05_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_05" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_keywords" value="MOLEX SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42d7581-03a5-418a-bdfb-79d2765fdc85</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_3_Open</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, both open"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d221724d-8678-41ec-b4d2-5d2e947dd1db</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Open</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, both open"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef65a52c-1ac5-4fa5-9598-6af6516ff902</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb46b5b9-d217-4797-bf73-7bc5cbe50665</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c254df2-8491-482f-8fcf-81c51d4fa437</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5d9b3ee-5d5c-47dd-9934-ca7812ac3261</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3c74d63-b80c-435c-9594-ab95f9084811</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DRV8244S</value>
+      <footprint>BrushedMoCoLibrary:VQFN-HR-16_4.0mmx7.0mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/drv8244-q1.pdf</datasheet>
+      <libsource lib="BrushedMoCoLibrary" part="DRV8244S" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57749c5f-19fd-40d5-9b2d-3b5f706ce3d1</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>332a40c7-f4a9-4533-8d13-c8d3a9485786</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>316b8a4a-009f-439e-86cc-594d5aba7ca4</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03218487-5a7e-4e1b-bd71-ff33eb79fc39</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BrushedMoCoBreakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45822afd-c423-4f62-85b1-5a63ed0a222d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BrushedMoCoLibrary" part="DRV8244S">
+      <docs>https://www.ti.com/lit/ds/symlink/drv8244-q1.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8244S</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv8244-q1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="nFAULT" type="output"/>
+        <pin num="2" name="IPROPI" type="bidirectional"/>
+        <pin num="3" name="nSLEEP" type="input"/>
+        <pin num="4" name="VM" type="power_in"/>
+        <pin num="5" name="OUT2" type="power_out"/>
+        <pin num="6" name="OUT2" type="power_out"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OUT1" type="power_out"/>
+        <pin num="9" name="OUT1" type="power_out"/>
+        <pin num="10" name="DRVOFF" type="input"/>
+        <pin num="11" name="EN/IN1" type="input"/>
+        <pin num="12" name="PH/IN2" type="input"/>
+        <pin num="13" name="nSCS" type="input"/>
+        <pin num="14" name="SCLK" type="input"/>
+        <pin num="15" name="SDI" type="input"/>
+        <pin num="16" name="SDO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Open">
+      <description>Jumper, 3-pole, both open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="AndersonPP">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">AndersonPP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="V+Log" type="input"/>
+        <pin num="3" name="V+Act" type="input"/>
+        <pin num="4" name="PV+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_05">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BrushedMoCoLibrary">
+      <uri>C:/GitHub/Brushed_MoCo_Breakout/Libraries/BrushedMoCoLibrary.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Connectors">
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="nSLEEP" pintype="input"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Conn1" pin="2" pinfunction="V+Log" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="3" name="CS">
+      <node ref="Conn3" pin="5" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="nSCS" pintype="input"/>
+    </net>
+    <net code="4" name="EN{slash}IN1">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="EN/IN1" pintype="input"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="Conn1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="DRVOFF" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="I_SENSE">
+      <node ref="Conn3" pin="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IPROPI" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="M+">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Conn2" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="OUT1" pintype="power_out"/>
+      <node ref="U1" pin="9" pinfunction="OUT1" pintype="power_out"/>
+    </net>
+    <net code="8" name="M-">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="Conn2" pin="2" pinfunction="V+Log" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="OUT2" pintype="power_out"/>
+      <node ref="U1" pin="6" pinfunction="OUT2" pintype="power_out"/>
+    </net>
+    <net code="9" name="Net-(Conn3-Pad2)">
+      <node ref="Conn3" pin="2" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="PH{slash}IN2">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PH/IN2" pintype="input"/>
+    </net>
+    <net code="11" name="SCLK">
+      <node ref="Conn3" pin="4" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="12" name="SDI">
+      <node ref="Conn3" pin="3" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="13" name="SDO">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="14" name="unconnected-(U1-nFAULT-Pad1)">
+      <node ref="U1" pin="1" pinfunction="nFAULT" pintype="output+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(V3-Pad1)">
+      <node ref="V3" pin="1" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(V4-Pad1)">
+      <node ref="V4" pin="1" pintype="input"/>
+    </net>
+  </nets>
+</export>

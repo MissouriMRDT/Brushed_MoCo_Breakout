@@ -1,0 +1,13 @@
+Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP
+1,C1,220uF,Device:C,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,~,
+1,C2,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+3,"C3, C4, C5",10uF,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,
+2,"Conn1, Conn2",AndersonPP,MRDT_Connectors:AndersonPP,MRDT_Connectors:Square_Anderson_2_H_Stacked_PV,,
+1,Conn3,Molex_SL_05,MRDT_Connectors:Molex_SL_05,MRDT_Connectors:MOLEX_SL_05_Horizontal,,
+2,"JP1, JP2",Jumper_3_Open,Jumper:Jumper_3_Open,Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical,~,
+1,R1,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+1,R2,10k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+1,R3,470k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+1,R4,330k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,
+1,U1,DRV8244S,BrushedMoCoLibrary:DRV8244S,BrushedMoCoLibrary:VQFN-HR-16_4.0mmx7.0mm_ThermalVias,https://www.ti.com/lit/ds/symlink/drv8244-q1.pdf,
+4,"V1, V2, V3, V4",Via,MRDT_Drill_Holes:Via,MRDT_Drill_Holes:4_40_Hole,,
