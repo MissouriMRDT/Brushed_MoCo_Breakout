@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side"
 			(at 23.495 59.69 0)
 			(effects
 				(font
@@ -2822,7 +2822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 38.1 68.58 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side"
 			(at 23.495 48.26 0)
 			(effects
 				(font
