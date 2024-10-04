@@ -1527,16 +1527,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 45.72) (xy 106.045 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2054eac1-ec66-4df8-9201-27e586d7b26d")
-	)
-	(wire
-		(pts
 			(xy 68.58 59.69) (xy 68.58 62.23)
 		)
 		(stroke
@@ -1767,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 106.045 45.72)
+			(xy 99.06 45.72) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1784,6 +1774,16 @@
 			(type default)
 		)
 		(uuid "a264099e-c414-4609-aaca-c64e4add8758")
+	)
+	(wire
+		(pts
+			(xy 106.68 44.45) (xy 106.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abee335b-34a4-412c-8147-d8e8a8421155")
 	)
 	(wire
 		(pts
@@ -1817,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 48.26) (xy 106.045 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b60c1b7a-9339-4b75-8f0e-8db738ecb121")
-	)
-	(wire
-		(pts
 			(xy 40.005 43.18) (xy 40.005 45.085)
 		)
 		(stroke
@@ -1837,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 106.045 48.26)
+			(xy 105.41 49.53) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1884,6 +1874,26 @@
 			(type default)
 		)
 		(uuid "ecc696c6-f190-483b-8b0f-be71de63f026")
+	)
+	(wire
+		(pts
+			(xy 105.41 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed34bca7-cd57-4035-ac71-304dbcc594f9")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 105.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4746474-8eaa-4531-a988-2dd67f18c5be")
 	)
 	(wire
 		(pts
@@ -2646,7 +2656,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 116.205 41.91 180)
+		(at 116.84 46.99 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2655,7 +2665,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ef65e00-da2a-4ab9-96ef-f538c2912fd3")
 		(property "Reference" "Conn1"
-			(at 116.84 43.18 0)
+			(at 117.475 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2664,7 +2674,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 116.84 45.72 0)
+			(at 117.475 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2673,7 +2683,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
-			(at 120.015 27.94 0)
+			(at 120.65 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2682,7 +2692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.015 27.94 0)
+			(at 120.65 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2691,7 +2701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.205 41.91 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3906,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 116.205 47.625 180)
+		(at 116.84 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3905,7 +3915,7 @@
 		(fields_autoplaced yes)
 		(uuid "f22bde29-74a4-4ef8-a698-1036cc093340")
 		(property "Reference" "Conn1"
-			(at 116.84 48.895 0)
+			(at 117.475 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3914,7 +3924,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 116.84 51.435 0)
+			(at 117.475 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3923,7 +3933,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
-			(at 120.015 33.655 0)
+			(at 120.65 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3932,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.015 33.655 0)
+			(at 120.65 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3941,7 +3951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.205 47.625 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
