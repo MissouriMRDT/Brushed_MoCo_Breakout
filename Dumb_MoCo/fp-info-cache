@@ -1,4 +1,4 @@
-24269186043705559
+24270915693309898
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -82116,6 +82116,13 @@ ST PowerSSO-36 1EP 7.5x10.3mm Pitch 0.8mm
 0
 36
 36
+Package_SO
+ST_PowerSSO-36_TP
+
+
+0
+0
+0
 Package_SO
 TI_SO-PowerPAD-8
 8-Lead Plastic PSOP, Exposed Die Pad (TI DDA0008B, see http://www.ti.com/lit/ds/symlink/lm3404.pdf)
