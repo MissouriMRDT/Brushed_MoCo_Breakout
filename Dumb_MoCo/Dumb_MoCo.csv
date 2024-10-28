@@ -1,0 +1,10 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP
+C3,220uF,~,Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm,1,
+C4,33nF,~,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,
+"Conn1,Conn2",AndersonPP,,MRDT_Connectors:Square_Anderson_2_H_Side_By_Side,2,
+Conn3,Molex_SL_05,,MRDT_Connectors:MOLEX_SL_05_Horizontal,1,
+R1,1.5k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,
+R2,10k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,
+"R3,R4,R5",1k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,3,
+"R6,R7",3.3k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,
+U1,VNH5050A-E,https://www.st.com/content/ccc/resource/technical/document/datasheet/6b/3d/8c/73/0c/a2/44/5e/CD00241540.pdf/files/CD00241540.pdf/jcr:content/translations/en.CD00241540.pdf,Package_SO:ST_PowerSSO-36_TP,1,
