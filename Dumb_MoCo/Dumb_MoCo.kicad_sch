@@ -5103,7 +5103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 43.18 37.846 0)
 			(effects
 				(font
@@ -5112,7 +5112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 40.9702 41.275 0)
 			(effects
 				(font

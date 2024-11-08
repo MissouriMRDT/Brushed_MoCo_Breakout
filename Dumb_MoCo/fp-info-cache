@@ -1,4 +1,4 @@
-24270915777633596
+24274405559991259
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65254,6 +65254,13 @@ OKI
 3
 3
 MRDT_Devices
+PKE3311PI_Through_Hole
+
+
+0
+6
+6
+MRDT_Devices
 PKE3316ZPI
 
 
@@ -66373,6 +66380,13 @@ MRDT_Switches
 0
 6
 6
+MRDT_Switches
+SW_Switch_03_STSSS9121_Through_Hole
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
